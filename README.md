@@ -3,7 +3,7 @@
 Leia atentamente até o final.
 
 Nossa avaliação tem como foco analisar como o candidato no desevolvimento do front-end da página proposta.
-Avaliamos qualidade de código, versionamento, uso de automatizadores, uso de preprocessadores e javascript(vanilla, jquery ou react).
+Avaliamos qualidade de código, versionamento, uso de , uso de preprocessadores e javascript(vanilla, jquery ou react).
 
 *OBS.: Evite bootstrap e outros similares, pois queremos avaliar o seu código na implementação dos itens.*
 
