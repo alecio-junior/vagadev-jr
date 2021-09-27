@@ -1,0 +1,205 @@
+.carousel{
+    height: 615px;
+}
+
+.carousel img{
+   
+    height: 615px;
+    width: 100vw;
+ 
+}
+
+.carousel p{
+    position: absolute;
+    z-index:2; 
+    width: 420px;
+    height: 163px;
+    left: 700px;
+    top: 273px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 155%;
+    /* or 25px */
+    text-align: right;
+    color:white;
+}
+
+.carousel h1{
+position: absolute;
+width: 484px;
+height: 54px;
+left: 700px;
+top: 109px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 46px;
+line-height: 54px;
+/* identical to box height */
+color: #FFFFFF;
+}
+
+.carousel h2{
+position: absolute;
+width: 426px;
+height: 82px;
+left:700px;
+top: 120px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 70px;
+line-height: 82px;
+/* identical to box height */
+
+
+/* Blue */
+
+color: #3EC6E0;
+    }
+    
+.slick-prev{
+    background-image: url(img/angle-left-solid.png);
+    background-color: #084154;
+    margin-top: 31%;
+    margin-left:97%;
+    height: 18px;
+    width: 10px;
+    z-index:2; 
+    position:absolute;
+    float: left;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border:none;
+    color: #084154;
+    
+}
+
+.Rectangle img{
+  margin-top: -35%;
+  margin-left: 95%;
+  height: 254px;
+  width: 47px;
+  z-index:1; 
+  position: absolute;
+  float: left;
+}
+
+.Rectangle2 img{
+    margin-top: -17%;
+    margin-left: 95%;
+    height: 54px;
+    width: 47px;
+    z-index:1; 
+    position: absolute;
+    float: left;
+  }
+
+.logo img{
+  width: 137px;
+  height: 25px;
+  z-index:1; 
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 22%;
+}
+
+.contato img {
+    width: 19px;
+    height: 22px;
+    z-index:1; 
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 60%;
+}
+
+.link_contato {
+    width: 19px;
+    height: 22px;
+    z-index:1; 
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 62%;
+    color: white;
+}
+
+.barra1 img{
+    width: 1px;
+    height: 19px;
+    z-index:1; 
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 67%;
+    color: white;
+}
+
+
+.buscar img {
+    width: 19px;
+    height: 20px;
+    z-index:1; 
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 68%;
+}
+
+.link_buscar{
+    width: 19px;
+    height: 20px;
+    z-index:1; 
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 70%;
+    color: white;
+}
+
+.barra2 img{
+    width: 1px;
+    height: 19px;
+    z-index:1; 
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 75%;
+    color: white;
+}
+
+.carrinho img {
+    width: 19px;
+    height: 20px;
+    z-index:1; 
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 77%;
+}
+  
+  
+.zelda img{
+    margin-top: -8%;
+    height: 250px;
+    width: 435px;
+    border-radius: 0px;
+    margin-left: 17%;
+    z-index:1; 
+    position: absolute;
+    display:flex;
+   
+
+}
+
+.sekiro img{
+    margin-top: -8%;
+    height: 250px;
+    width: 435px;
+    border-radius: 0px;
+    margin-left: 51%;
+    z-index:1; 
+    position: absolute;
+    display:flex;
+    flex-wrap: wrap ;
+}
+
