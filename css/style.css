@@ -2,11 +2,172 @@
     height: 615px;
 }
 
-.carousel img{
+#menu{
+    margin-top:36px;
+    position: absolute;
+    left: 245px;
+    z-index: 2;
+    width: 35px;
+    height: 30px;
+    cursor: pointer;
+    
+}
+
+.bar{
+  height: 5px;
+  width: 100%;
+  background-color: white;
+  display: block;
+  border-radius: 5px;
+  transform: 0.3s ease;
+}
+
+#bar1{
+    transform: translatey(-4px);
+}
+
+#bar3{
+    transform: translatey(4px);
+}
+
+.nav li a{
+  color:white;
+  text-decoration:none;
+  z-index: 6;
+  padding-left: 20px;
+  padding-top: 5px;
+  width: 32px;
+  height: 19px;
+  left: 390px;
+  top: 146.48px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+ 
+}
+
+
+.nav li a:hover{
+   font-weight: bold;
+  }
+
+  .nav li{
+    list-style: none;
+    padding: 5px 0;
+  }
+
+  .link_menu li{
    
+    display: flex;
+  
+  }
+
+  .link_menu1 li{
+   
+    display: flex;
+  
+  }
+
+  .link_menu2 li{
+   
+    display: flex;
+  
+  }
+
+
+
+   .nav{
+
+    position: absolute;
+    padding-right: 50px;
+    width: 600px;
+    height: 150px;
+    left: 180px;
+    top: 80.48px;
+
+/* Dark blue */
+
+     background: #084154;
+/* Blue */
+
+     border: 2px solid #3EC6E0;
+     box-sizing: border-box;
+     border-radius: 5px;
+     padding:0;
+     margin:0 20px;
+     transition: 0.3s ease;
+     display: none;
+   }
+
+   .menu-bg, #menu-bar{
+       top:0;
+       left:0;
+       position:absolute
+   }
+
+   .menu-bg{
+       z-index:2;
+       width: 0;
+       height: 0;
+       margin: 30px 0 20px 20px;
+       background: radial-gradient(circle,Yellow,blue);
+       border-radius:50%;
+       transition: 0.3s ease;
+   }
+
+   #menu-bar{
+       z-index: 2;
+   }
+
+   .change-bg{
+       width: 550px;
+       height: 540px;
+       transform: translate(-60%, -30%);
+   }
+
+   .change .bar{
+       background-color: white;
+   }
+
+   .change #bar1{
+       transform: translatey(4px) rotatez(-45deg);
+   }
+.change #bar3{
+    transform: translatey(-6px) rotatez(45deg);
+  }
+
+  .change #bar2{
+      opacity: 0;
+  }
+
+  .change{
+      display: block;
+  }
+.carousel_mobile{
+   display: none;
+}
+
+.carousel img{
     height: 615px;
     width: 100vw;
  
+}
+
+.carousel_mobile img {
+    display:none;
+}
+.carousel_mobile p{
+    display:none;
+}
+.carousel_mobile h1 {
+    display:none;
+}
+
+.carousel_mobile h2{
+    display:none;
 }
 
 .carousel p{
@@ -47,7 +208,7 @@ position: absolute;
 width: 426px;
 height: 82px;
 left:700px;
-top: 120px;
+top: 149px;
 
 font-family: Roboto;
 font-style: normal;
@@ -65,11 +226,29 @@ color: #3EC6E0;
 .slick-prev{
     background-image: url(img/angle-left-solid.png);
     background-color: #084154;
-    margin-top: 31%;
+    margin-top:30%;
     margin-left:97%;
-    height: 18px;
-    width: 10px;
-    z-index:2; 
+    height: 17px;
+    width: 6px;
+    z-index:3; 
+    position:absolute;
+    float: left;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border:none;
+    color: #084154;
+    
+}
+
+.slick-next{
+    background-image: url(img/angle-right-solid.png);
+    background-color: #084154;
+    margin-top: -15%;
+    margin-left:98%;
+    height: 15px;
+    width: 6px;
+    z-index:6; 
     position:absolute;
     float: left;
     text-indent: 100%;
@@ -84,7 +263,7 @@ color: #3EC6E0;
   margin-top: -35%;
   margin-left: 95%;
   height: 254px;
-  width: 47px;
+  width: 48px;
   z-index:1; 
   position: absolute;
   float: left;
@@ -94,7 +273,7 @@ color: #3EC6E0;
     margin-top: -17%;
     margin-left: 95%;
     height: 54px;
-    width: 47px;
+    width: 48px;
     z-index:1; 
     position: absolute;
     float: left;
@@ -123,7 +302,7 @@ color: #3EC6E0;
     height: 22px;
     z-index:1; 
     position: absolute;
-    margin-top: 1%;
+    margin-top: 2%;
     margin-left: 62%;
     color: white;
 }
@@ -153,7 +332,7 @@ color: #3EC6E0;
     height: 20px;
     z-index:1; 
     position: absolute;
-    margin-top: 1%;
+    margin-top: 2%;
     margin-left: 70%;
     color: white;
 }
@@ -187,7 +366,7 @@ color: #3EC6E0;
     z-index:1; 
     position: absolute;
     display:flex;
-   
+    flex-wrap: wrap ;
 
 }
 
@@ -203,3 +382,206 @@ color: #3EC6E0;
     flex-wrap: wrap ;
 }
 
+.produtos_destaque{
+    margin-top: 180px;
+    margin-left: 230px;
+  }
+  
+
+.produtos-slide{
+  display: none;
+}
+
+.produtos-slide img{
+    display: none;
+  }
+
+.produtos{
+    margin-top: 50px;
+    margin-left: 171px;
+    display: flex;
+  }
+
+@media (max-width: 600px)
+{
+    .carousel{
+       display: none;
+    }
+
+    nav.menu {
+		width: 100%;
+		left: -100%;
+	}
+
+    .carousel_mobile{
+        display: block;
+     }
+
+    .carousel img{
+       display: none;
+    }
+    
+    .carousel p{
+        display:none;
+    }
+    
+    .carousel h1{
+        display:none;
+    }
+    
+    .carousel h2{
+        display:none;
+    }
+
+    .carousel_mobile img {
+        display: block;
+        width: 100vw;
+        margin: 0px;
+    }
+    .carousel_mobile p{
+        display:none;
+    }
+    .carousel_mobile h1 {
+        display:none;
+    }
+    
+    .carousel_mobile h2{
+        display:none;
+    }
+
+     .Rectangle img{
+        display: none;
+      }
+      
+      .Rectangle2 img{
+          display: none;
+        }
+
+        .link_contato {
+          display: none;
+        }
+        
+        .barra1 img{
+          display: none;
+        }
+
+        .barra2 img{
+            display: none;
+          }
+
+        .link_buscar{
+          display: none;
+        }
+
+        .slick-next{
+            background-image: url(img/angle-right-solid.png);
+            background-color: #084154;
+            margin-top: 4px;
+            margin-left: 95%;
+            height: 17px;
+            width: 6px;
+            float: left;
+            text-indent: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            border:none;
+            color: #084154;
+            
+        }
+
+        .slick-prev{
+            background-image: url(img/angle-left-solid.png);
+            background-color: #084154;
+            margin-top: 125%;
+            margin-left: 88%;
+            height: 17px;
+            width: 6px;
+            float: left;
+            text-indent: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            border:none;
+            color: #084154;
+            
+        }
+        
+
+        .zelda img{
+            margin-top: 38px;
+            margin-left: 3%;
+            height: 250px;
+            width: 435px;
+            border-radius: 0px;
+            display:flex;
+            flex-wrap: wrap ;
+        
+        }
+        
+        .sekiro img{
+            margin-top: 300px;
+            margin-left: 3%;
+            height: 250px;
+            width: 435px;
+            border-radius: 0px;
+            display:flex;
+            flex-wrap: wrap ;
+        }
+
+        .produtos_destaque{
+            margin-top: 580px;
+            margin-left: 30px;
+          }
+          
+        
+        .produtos{
+          margin-top: 20px;
+          margin-left: 71px;
+          display: flex;
+          flex-wrap: wrap ;
+          display: none;
+        }
+    
+        .produtos-slide{
+            margin-top: 20px;
+            margin-left: 71px;
+            display: block;
+          }
+
+          .produtos-slide img{
+            display: block;
+          }
+
+        .produtos-slide .slick-prev{
+            background-image: url(img/angle-left-solid.png);
+            background-color: #084154;
+            margin-top: 38%;
+            margin-left: 1px;
+            height: 17px;
+            width: 6px;
+            float: left;
+            text-indent: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            border:none;
+            color: #084154;
+            
+        }
+
+        .produtos-slide .slick-next{
+            background-image: url(img/angle-right-solid.png);
+            background-color: #084154;
+            margin-top: -50%;
+            margin-left: 80%;
+            height: 17px;
+            width: 6px;
+            float: left;
+            text-indent: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            border:none;
+            color: #084154;
+            
+        }
+      
+        
+}
