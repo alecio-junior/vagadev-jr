@@ -19,24 +19,27 @@
            <div id="bar3" class="bar"></div>
          </div>
        </div>
-       <ul class="nav" id="nav">
-         <div class="link_menu">
-         <li class="lutas"><a href="#">mortal kombat</a></li>
-         <li class="lutas"><a href="#">smash bros</a></li>
-         <li class="lutas"><a href="#">killer instict</a></li>
-         <li class="lutas"><a href="#">dbz kakarot</a></li>
-        </div>
-        <div class="link_menu1">
-         <li class="corrida"><a href="#">mortal kombat</a></li>
-         <li class="corrida"><a href="#">smash bros</a></li>
-         <li class="corrida"><a href="#">killer instict</a></li>
-         <li class="corrida"><a href="#">dbz kakarot</a></li>
-        </div>
-         <div class="link_menu2">
-         <li class="text"><a href="#">mortal kombat</a></li>
-         <li class="text"><a href="#">smash bros</a></li>
-         </div>
+       <div class="nav" id="nav"> 
+        <ul class="link_menu">
+          <span>lutas</span>
+         <li><a href="#">mortal kombat</a></li>
+         <li><a href="#">smash bros</a></li>
+         <li><a href="#">killer instict</a></li>
+         <li><a href="#">dbz kakarot</a></li>
+        </ul>
+        <ul class="link_menu1">
+          <span>ação / aventura</span>
+         <li><a href="#">GTA V</a></li>
+         <li><a href="#">TOMB RAIDER</a></li>
+         <li><a href="#">HALO</a></li>
+         <li><a href="#">Call of Duty</a></li>
+        </ul>
+        <ul class="link_menu2">
+          <span>corrida</span>
+         <li><a href="#">NEED for SPEED</a></li>
+         <li><a href="#">Forza Horizon</a></li>
        </ul>
+      </div>
      </div>
 
      <div class="menu-bg" id="munu-bg"></div>
@@ -73,6 +76,7 @@
 
      <div class="carrinho">
       <img src="img/shopping-bag-solid.png">
+      <p id="carrinho"></p>
      </div> 
 
      <div class="carousel">
@@ -108,17 +112,75 @@
 
       <div class="produtos_destaque"><h3>Produtos em destaque</h3></div>
 
+          <div id="bg"> 
+            <div class="box">
+              <a href="#" id="close" onclick="fechar()">x</a>
+              <p>pedido realizado com sucesso!</P>
+              <img src="img/image 6.png">
+            </div>
+          </div>
+
       <div class="produtos">
-        <div> <img src="img/product-outriders.png"></div>
-        <div><img src="img/product-cyberpunk2077.png"></div>
-        <div> <img src="img/product-donkey-kong-country-tropical-freeze.png"></div>
+        <div class="imagem1"> 
+          <img src="img/product-outriders.png"> 
+            <div class="descr_produto"> 
+              <p>Outriders</p>
+              <h5>R$ 200,00</h5>
+              <input type="button" class="click" name="envia"  value="Comprar" onclick="comprar()" / >
+            </div> 
+        </div>
+         <div class="imagem2">
+           <img src="img/product-cyberpunk2077.png">
+             <div class="descr_produto"> 
+               <p>Outriders</p>
+               <h5>R$ 200,00</h5>
+               <input type="button" class="click" name="envia" value="Comprar" onclick="comprar()""/>
+             </div> 
+         </div>
+        <div class="imagem2"> 
+          <img src="img/product-donkey-kong-country-tropical-freeze.png">
+            <div class="descr_produto"> 
+              <p>Outriders</p>
+              <h5>R$ 200,00</h5>
+              <input type="button" class="click" name="envia"  value="Comprar" onclick="comprar()" />
+            </div> 
+        </div>
       </div>
 
       <div class="produtos-slide">
-        <div> <img src="img/product-outriders.png"></div>
-        <div><img src="img/product-cyberpunk2077.png"></div>
-        <div> <img src="img/product-donkey-kong-country-tropical-freeze.png"></div>
+        <div class="imagem1"> 
+          <img src="img/product-outriders.png"> 
+            <div class="descr_produto"> 
+              <p>Outriders</p>
+              <h5>R$ 200,00</h5>
+              <input type="button" class="click" name="envia"  value="Comprar" onclick="comprar()" / >
+            </div> 
+        </div>
+         <div class="imagem2">
+           <img src="img/product-cyberpunk2077.png">
+             <div class="descr_produto"> 
+               <p>Outriders</p>
+               <h5>R$ 200,00</h5>
+               <input type="button" class="click" name="envia" value="Comprar" onclick="comprar()""/>
+             </div> 
+         </div>
+        <div class="imagem2"> 
+          <img src="img/product-donkey-kong-country-tropical-freeze.png">
+            <div class="descr_produto"> 
+              <p>Outriders</p>
+              <h5>R$ 200,00</h5>
+              <input type="button" class="click" name="envia"  value="Comprar" onclick="comprar()" />
+            </div> 
+        </div>
       </div>
+
+      <div class="rotape1">
+        <img src="img/logo_header 1.png">
+      </div>
+      <div class="rotape2">
+       <p>Agência N1 - Todos os direitos reservados</p>
+      </div>
+      
 
 
 
